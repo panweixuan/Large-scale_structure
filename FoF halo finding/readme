@@ -1,0 +1,5 @@
+This code processes a snap dataset containing particle position information from a corner of a simulation. 
+
+It first uses a kdtree to compute particle distances, 
+then applies FOF halo finding with Halotools, 
+and finally generates a halo mass function plot using Colossus.
